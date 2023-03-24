@@ -157,7 +157,6 @@ const onEditTask=(record)=>{
   const [text, setText] = useState("");
   const [date, setDate] = useState("");
   const [status, setStatus] = useState("");
-  // const [tag, setTag] = useState("");
   const [error, setError] = useState(false);
   const [errordate, setErrorDate] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
